@@ -2,4 +2,6 @@
 
 ### Unable And enable WI-FI on Raspberries and Linux based OS
 
-sudo rfkill block wifi
+```sh
+    sudo rfkill block wifi
+```
