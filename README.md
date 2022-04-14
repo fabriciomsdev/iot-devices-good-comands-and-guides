@@ -2,7 +2,7 @@
 
 This Repository are focused to save & distribute knowledge about IOT devices applied to real life in plain english.
 
-## Rapberry
+## Raspberry
 
 ### Unable And enable WI-FI on Raspberries and Linux based OS
 
@@ -25,7 +25,7 @@ Network Time Protocol (NTP) is an internet protocol used to synchronize with com
 
 #### Do you interesed to learn more?
 
-Watch: <https://www.youtube.com/watch?v=oCtkwEjhyD4>
+Watch: <https://www.youtube.com/watch?v=oCtkwEjhyD4>  <br />
 For Brazilians: <https://www.youtube.com/watch?v=WDimwYFau1I>
 
 ### How to setup this on device?
@@ -62,18 +62,18 @@ Have atention on coments about country NTP servers lists, you can find your zone
 
 Ex. Only For Brazilians:
 
-server a.st1.ntp.br iburst
-server b.st1.ntp.br iburst
-server c.st1.ntp.br iburst
-server d.st1.ntp.br iburst
-server gps.ntp.br iburst
-server a.ntp.br iburst
-server b.ntp.br iburst
-server c.ntp.br iburst
-server 0.pool.ntp.org iburst
-server 1.pool.ntp.org iburst
-server 2.pool.ntp.org iburst
-server 3.pool.ntp.org iburst
+server a.st1.ntp.br iburst <br />
+server b.st1.ntp.br iburst <br />
+server c.st1.ntp.br iburst <br />
+server d.st1.ntp.br iburst <br />
+server gps.ntp.br iburst <br />
+server a.ntp.br iburst <br />
+server b.ntp.br iburst <br />
+server c.ntp.br iburst <br />
+server 0.pool.ntp.org iburst <br />
+server 1.pool.ntp.org iburst <br />
+server 2.pool.ntp.org iburst <br />
+server 3.pool.ntp.org iburst <br />
 
 ```txt
 driftfile /var/lib/ntp/ntp.drift
