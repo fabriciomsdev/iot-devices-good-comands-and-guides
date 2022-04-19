@@ -4,9 +4,9 @@ This Repository are focused to save & distribute knowledge about IOT devices app
 
 ## Raspberry
 
-### SOlve time problem
+### Solve time problem
 ```sh
-date -s "$(curl https://us-central1-s0noo94zusmb58uebu9gq2pjwoo8j4.cloudfunctions.net/time-sync)" && sudo apt-get update -y && sudo apt-get install ntp && sudo systemctl enable ntp && sudo date -s '2022-01-01 01:01:01' && date && sudo systemctl restart ntp
+sudo date -s "$(curl https://us-central1-s0noo94zusmb58uebu9gq2pjwoo8j4.cloudfunctions.net/time-sync)" && sudo apt-get update -y && sudo apt-get install ntp && sudo systemctl enable ntp && sudo date -s '2022-01-01 01:01:01' && date && sudo systemctl restart ntp
 ```
 
 ### Unable And enable WI-FI on Raspberries and Linux based OS
